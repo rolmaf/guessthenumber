@@ -49,12 +49,28 @@ p {
     padding: 8%;
     margin: 0;
     background-color: #3c4cac;
-    width: 600px;
+    width: 100%;
 }
 #finish {
     padding: 8%;
-    width: 600px;
+    width: 100%;
     margin: 0;
     background-color: #2b3b9b;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;   
 }
+@media all and (max-width: 860px) {
+    .all, p, .content {
+        margin-left: 0px;
+        width: 80vw;   
+    }
+    .all {
+        height: 100vh;
+    }
+
+}
+/* @media all and (max-width: 860px) {
+    .all, p, .content {
+        width: 200px;   
+    }
+
+} */
