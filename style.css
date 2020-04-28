@@ -11,6 +11,7 @@ button {
     font-family: 'Cormorant Garamond', serif;
 }
 .number {
+    transition: 1s;
     margin: 5px;
     text-align: center;
     background-color: #6f7fdf;
@@ -21,6 +22,10 @@ button {
 }
 .number:hover {
     background-color: #8f9fff;
+}
+#new-game:active {
+    transition: 5s;
+    background-color: #6f7fdf;
 }
 .content {
     margin: 0 auto;
@@ -69,6 +74,7 @@ p {
 
 }
 .active {
+    transition: 1s;
     background-color: #F4413B;
     color: white;
 }

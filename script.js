@@ -1,4 +1,4 @@
-let secret_number = Math.ceil(Math.random()*10);
+let secret_number = Math.ceil(Math.random()*9);
 let i = 0;
 let block = false;
 document.querySelector(".all").onclick = function() {
