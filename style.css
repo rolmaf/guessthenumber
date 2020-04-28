@@ -68,6 +68,10 @@ p {
     }
 
 }
+.active {
+    background-color: #F4413B;
+    color: white;
+}
 /* @media all and (max-width: 860px) {
     .all, p, .content {
         width: 200px;   
